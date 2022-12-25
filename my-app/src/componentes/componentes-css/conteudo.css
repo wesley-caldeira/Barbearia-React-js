@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Popping, Great Vibes';
+}
+.banner{
+    background-image: url('C:\Users\wesle\OneDrive\Documentos\GitHub\Barbearia-React-js\my-app\public\fontes\assets\banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;    
+
+}
+.banner-limite{
+    max-width: 1920px;
+    height: 500px;
+}
+
+.conteudo{
+text-align: center;
+}
+
+
+.conteudo h1{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family: 'Popping';
+    font-weight: bold;
+
+}
+
+.paragrafo-descrisao{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+span{
+    font-size: 50px;
+    color: rgba(172, 184, 72, 0.699);
+    font-family: 'Great Vibes';
+}
+@media screen and (max-width: 375px) {
+    .banner{
+        background-position: top;
+        background-size: 800px;
+    }
+    .banner-limite{
+        height: 270px;
+    }
+    .conteudo h1{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 40px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    span{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner-limite{
+        height: 300px;
+    }
+}
