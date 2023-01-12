@@ -48,7 +48,7 @@
 
 # Aparencia do projeto para multiplas telas:
 
-Acesse o link e veja todas as imagens e videos do projeto <a href="my-app\public\fontes\layout-das-telas">Click aqui.</a>
-
+Acesse o link e veja todas as imagens e videos do projeto <a href="https://github.com/wesley-caldeira/Barbearia-React-js/tree/main/my-app/public/fontes/layout-das-telas">Click aqui.</a>
 
 # Funcionaçodade dp projeto
+    Evento de Click usado para criar uma novo layout com o (useStates).
